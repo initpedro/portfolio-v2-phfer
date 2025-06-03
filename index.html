@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio // Pedro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./source/images/logo-ph-rounded.jpeg"
+      type="image"
+    />
+
+    <link rel="stylesheet" href="./source/stylesheets/index.css" />
+  </head>
+  <body>
+    <button
+      id="btn-voltar-topo"
+      onclick="mostrarSecaoPorId('entrada')"
+      title="Voltar ao topo"
+    >
+      <ion-icon name="caret-up-outline"></ion-icon>
+    </button>
+    <header>
+      <div class="section-portal intervalCardReveal">
+        <div class="section-portal-image-logo">
+          <a href="./index.html" rel="noopener noreferrer">
+            <img
+              src="./source/images/logo-vector-teste.png"
+              width="120px"
+              height="26px"
+              alt=""
+            />
+          </a>
+        </div>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <div class="menu section-portal-buttons ativa">
+          <button onclick="mostrarSecaoPorId('entrada')">Entrada</button>
+          <button onclick="mostrarSecaoPorId('sobre-mim')">Sobre mim</button>
+          <button onclick="mostrarSecaoPorId('habilidades')">
+            Habilidades
+          </button>
+          <button onclick="mostrarSecaoPorId('projetos')">Projetos</button>
+          <button onclick="mostrarSecaoPorId('trajetoria')">Trajetória</button>
+          <button onclick="mostrarSecaoPorId('contato')">Contato</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="entrada" class="ativa section-transicao">
+        <div class="section-base-wrapper intervalCardReveal">
+          <h1>Pedro Fonseca,<br /><span class="multiText"></span></h1>
+          <h2>
+            Sou um
+            <strong>estudante de desenvolvimento full-stack</strong> movido pela
+            curiosidade, boas playlist musicais e café. Amante da tecnologia
+            desde sempre,
+            <strong
+              >estudante há 2 anos e graduando Sistemas de Informação</strong
+            >. Tenho habilidades sólidas em
+            <strong>C#/ASP.NET, Python e Java</strong>.
+          </h2>
+          <div class="section-base-rodape">
+            <div class="entrada">
+              <button
+                onclick="mostrarSecaoPorId('sobre-mim')"
+                class="button-icons"
+              >
+                <ion-icon name="arrow-down-circle-outline"></ion-icon>
+                <p>Quem é o Pedro?</p>
+              </button>
+            </div>
+            <div class="line"></div>
+            <div>
+              <div class="buttons">
+                <a
+                  href="https://www.linkedin.com/in/initpedro/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><button class="icons">
+                    <ion-icon name="logo-linkedin"></ion-icon></button></a
+                ><a
+                  href="https://www.github.com/initpedro/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><button class="icons">
+                    <ion-icon name="logo-github"></ion-icon></button
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sobre-mim" class="section-transicao">
+        <div class="section-base-mais-sobre intervalCardReveal">
+          <div class="parte-one">
+            <div class="parte-texto">
+              <h1>Sobre mim</h1>
+              <h2>
+                Desde novo, <strong>a tecnologia sempre me fascinou</strong>. Em
+                2015, comecei a explorar mais profundamente esse universo
+                através de jogos online, fóruns e, claro, baixando músicas —
+                como muita gente da época fazia. <br /><br />
+                <strong
+                  >Nunca cheguei a fazer cursos de informática no começo</strong
+                >, mas sempre ouvi das pessoas a mesma pergunta: “Você fez curso
+                de informática?” — porque
+                <strong>eu já dominava muito daquilo naturalmente</strong>.
+              </h2>
+            </div>
+            <div class="parte-img borda-animada">
+              <img width="200px" src="./source/images/logo-ph.jpeg" alt="" />
+            </div>
+          </div>
+          <div id="texto-habilidades" class="colapsado">
+            <br />
+            Foi no <strong>Habbo Hotel</strong> que minha paixão pela área
+            realmente se acendeu, especialmente através das polícias virtuais,
+            que simulavam estruturas organizacionais e rotinas do mundo real.
+            Entrei como um simples jogador curioso e, com o tempo, fui me
+            aprofundando cada vez mais. <br /><br />
+            Trabalhei de forma remota e voluntária em uma dessas polícias,
+            <strong
+              >ajudando a desenvolver cursos ortográficos e de postura para
+              novos membros, além de criar e manter documentos internos, fóruns
+              e normas organizacionais</strong
+            >. Também me envolvi na criação de sistemas internos de gestão de
+            equipes e fluxos operacionais, utilizando a linguagem de marcação
+            <strong
+              ><q
+                ><a
+                  href="https://pt.wikipedia.org/wiki/BBCode"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >BBCode</a
+                ></q
+              > </strong
+            >utilizados em fóruns phpBB antigos para organizar conteúdos
+            digitais. <br /><br />
+            Essa experiência, mesmo dentro de um jogo, me proporcionou um
+            contato real com comunicação, liderança, desenvolvimento de
+            sistemas, colaboração remota e, acima de tudo,
+            <strong
+              >com o poder de usar a tecnologia para organizar e transformar
+              experiências humanas</strong
+            >. <br /><br />
+            Foi ali, no ambiente virtual de um jogo, que tudo começou a fazer
+            sentido. Sou um
+            <strong>estudante de desenvolvimento em formação</strong> com foco
+            em tecnologias modernas e apaixonado por criar soluções eficientes.
+            Tenho 19 anos, estudo <strong>Sistemas de Informação</strong> na
+            Universidade de Uberaba. <br /><br /><strong
+              >Realizando especificadamente a formação fullstack pela empresa
+              Rocketseat</strong
+            >, com experiência prática em desafios que envolvem front-end e
+            back-end. <br /><br />
+            <strong
+              >Busco minha primeira oportunidade para mostrar minha
+              capacidade</strong
+            >, pronto para aprender com equipes experientes, contribuir com
+            projetos reais e evoluir continuamente como profissional.
+            <br /><br /><br />
+          </div>
+          <div id="botao-expandir-container">
+            <button class="button-icons" onclick="expandirTexto()">
+              <ion-icon name="cafe-outline"></ion-icon>
+              <p>Dê um clique a mais e continue lendo</p>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="habilidades" class="section-transicao">
+        <div class="section-base-habilidades intervalCardReveal">
+          <div>
+            <h1>Conhecimentos <br />e habilidades</h1>
+          </div>
+          <div class="habilidades-conjunto-buttons">
+            <article class="front intervalCardReveal">
+              <button class="buttonpointers">Front-end</button>
+            </article>
+
+            <article class="back intervalCardReveal">
+              <button class="buttonpointers">Back-end</button>
+            </article>
+
+            <article class="dados intervalCardReveal">
+              <button class="buttonpointers">Banco de Dados</button>
+            </article>
+
+            <article class="others intervalCardReveal">
+              <button class="buttonpointers">Outras habilidades</button>
+            </article>
+          </div>
+        </div>
+        <div id="p">
+          <p class="changeDescription">*clique nos botões para visualizar*</p>
+        </div>
+      </section>
+      <section id="projetos" class="section-transicao">
+        <div class="sub-projetos intervalCardReveal">
+          <h3>Projetos em destaque</h3>
+          <h4>
+            Sinta-se à vontade para visitar alguns dos meus projetos, todos
+            estão disponíveis no meu Github! <br />*Arraste os cards para
+            visualizar mais*
+          </h4>
+          <div class="carousel" id="carousel">
+            <div class="carousel-track">
+              <div class="card borda-animada">
+                <div>
+                  <img
+                    height="160px"
+                    src="./source/images/proj-portfolio.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-footer">
+                  <h1>Portfólio pessoal</h1>
+                  <p>
+                    Finalizei meu portfólio e ele estará sempre atualizado com
+                    meus projetos e minha história - chega mais!
+                  </p>
+                  <div class="buttonpointers">
+                    <button class="buttonpointers">
+                      <ion-icon name="logo-github"></ion-icon></button
+                    ><button class="buttonpointers">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card borda-animada">
+                <div>
+                  <img
+                    height="160px"
+                    src="./source/images/no-image.vector.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-footer">
+                  <h1>Visite o meu Github!</h1>
+                  <p>
+                    Meu GitHub está cheio de projetos interessantes — dê uma
+                    olhada e acompanhe minha evolução.
+                  </p>
+                  <div class="buttonpointers">
+                    <button class="buttonpointers">
+                      <ion-icon name="logo-github"></ion-icon></button
+                    ><button class="buttonpointers">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card borda-animada">
+                <div>
+                  <img
+                    height="160px"
+                    src="./source/images/no-image.vector.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-footer">
+                  <h1>C# objectO-Programming</h1>
+                  <p>
+                    Curso intensivo inicial de lógica em C# finalizado — confira
+                    tudo no meu repositório!
+                  </p>
+                  <div class="buttonpointers">
+                    <button class="buttonpointers">
+                      <ion-icon name="logo-github"></ion-icon></button
+                    ><button class="buttonpointers">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card borda-animada">
+                <div>
+                  <img
+                    height="160px"
+                    src="./source/images/no-image.vector.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-footer">
+                  <h1>C# logicAndAlgorithms</h1>
+                  <p>
+                    Meu GitHub está cheio de projetos interessantes — dê uma
+                    olhada e acompanhe minha evolução.
+                  </p>
+                  <div class="buttonpointers">
+                    <button class="buttonpointers">
+                      <ion-icon name="logo-github"></ion-icon></button
+                    ><button class="buttonpointers">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="card borda-animada"><div><img height="160px" src="./source/images/no-image.vector.jpeg" alt=""></div><div class="carousel-footer"><h1>Loja Virtual Mimo</h1><p>Meu projeto inicial de landing page para loja virtual está finalizado e publicado no repositório - veja!</p><div class="buttonpointers"><button class="buttonpointers"><ion-icon name="logo-github"></ion-icon></button><button class="buttonpointers"><ion-icon name="link-outline"></ion-icon></button></div></div></div> -->
+              <div class="card borda-animada">
+                <div>
+                  <img
+                    height="160px"
+                    src="./source/images/no-image.vector.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-footer">
+                  <h1>Desenvolvendo...</h1>
+                  <p>
+                    Pegue um café e aguarde, logo termino mais esse projetinho
+                    quente - simbora pra cimaa! < />
+                  </p>
+                  <div class="buttonpointers">
+                    <button class="buttonpointers">
+                      <ion-icon name="logo-github"></ion-icon></button
+                    ><button class="buttonpointers">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card borda-animada">
+                <div>
+                  <img
+                    height="160px"
+                    src="./source/images/no-image.vector.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-footer">
+                  <h1>Desenvolvendo...</h1>
+                  <p>
+                    Pegue um café e aguarde, logo termino mais esse projetinho
+                    quente - simbora pra cimaa! < />
+                  </p>
+                  <div class="buttonpointers">
+                    <button class="buttonpointers">
+                      <ion-icon name="logo-github"></ion-icon></button
+                    ><button class="buttonpointers">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="trajetoria" class="section-transicao">
+        <div class="section-base-wrapper intervalCardReveal">
+          <br /><br /><br /><br /><br />
+          <h1>Minha trajetória</h1>
+          <h2>
+            Comecei a faculdade de Tecnologia em Sistemas de Informação em 2024,
+            mas já estudava programação por conta própria bem antes disso. Hoje,
+            estou focado em desenvolver projetos pessoais para melhorar como
+            desenvolvedor e conquistar minha primeira vaga na área.
+          </h2>
+
+          <div class="timeline oculto">
+            <div class="timeline-entry">
+              <div class="timeline-left">
+                <h2>Usina Uberaba S/A</h2>
+                <p>Ago 2024 ~ o momento <br />Presencial</p>
+              </div>
+              <div class="timeline-middle">
+                <span class="dot"></span>
+              </div>
+              <div class="timeline-right">
+                <h2>Auxiliar Administrativo</h2>
+                <p>
+                  Desenvolvi relatórios automatizados no Power BI com foco em
+                  eficiência e tomada de decisão, elaborei planilhas funcionais
+                  e manuais de procedimento para padronizar processos. Atuei na
+                  organização e gerenciamento de documentos, automação de
+                  solicitações de compras e monitoramento de frotas por sistemas
+                  digitais. Além disso, contribuí ativamente com soluções
+                  práticas e ideias voltadas à otimização de processos, sempre
+                  buscando aplicar pensamento lógico e estruturado
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-entry">
+              <div class="timeline-left">
+                <h2>Téc. Informática Autônomo</h2>
+                <p>2015 ~ o momento <br />Presencial/Remoto</p>
+              </div>
+              <div class="timeline-middle">
+                <span class="dot"></span>
+              </div>
+              <div class="timeline-right">
+                <h2>Técnico de Informática</h2>
+                <p>
+                  Atuei com suporte técnico voltado à manutenção e otimização de
+                  sistemas, realizando formatação e configuração de computadores
+                  e dispositivos móveis, além da instalação e ajuste de pacotes
+                  e serviços no ambiente Windows. Também trabalhei com
+                  recuperação de arquivos, upgrades de hardware, montagem de
+                  máquinas e reparos pontuais. Esse contato direto com problemas
+                  reais me proporcionou uma base sólida
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-entry">
+              <div class="timeline-left">
+                <h2>Polícia Virtual, Plataforma Habbo Hotel</h2>
+                <p>2015 - 2021 <br />Remoto/Educacional</p>
+              </div>
+              <div class="timeline-middle">
+                <span class="dot"></span>
+              </div>
+              <div class="timeline-right">
+                <h2>Administrador de Sistemas Internos</h2>
+                <p>
+                  Atuei no desenvolvimento de sistemas internos para gestão de
+                  equipes e fluxos operacionais, além da criação e manutenção de
+                  documentos, fóruns e normas organizacionais. Elaborei
+                  conteúdos instrucionais e ministrei treinamentos focados em
+                  ortografia e postura profissional para novos membros. Utilizei
+                  BBCode para formatação e organização de conteúdos digitais, em
+                  um ambiente totalmente remoto e colaborativo.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-entry">
+              <div class="timeline-left">
+                <h2>MARIANA CARDOSO DIAS LTDA.</h2>
+                <p>Abr 2024 - Ago 2024 <br />Presencial</p>
+              </div>
+              <div class="timeline-middle">
+                <span class="dot"></span>
+              </div>
+              <div class="timeline-right">
+                <h2>Entregador</h2>
+                <p>
+                  Realizava entregas e prestava serviços como atendente e
+                  repositor
+                </p>
+              </div>
+            </div>
+            <div class="timeline-entry">
+              <div class="timeline-left">
+                <h2>Cristiano Fonseca Pinturas em Geral LTDA.</h2>
+                <p>Jan 2019 - Jan 2023<br />Presencial</p>
+              </div>
+              <div class="timeline-middle">
+                <span class="dot"></span>
+              </div>
+              <div class="timeline-right">
+                <h2>Auxiliar Geral</h2>
+                <p>
+                  No início dos meus trabalhos presenciais, iniciei minha
+                  carreira sendo auxiliar de Pintor, ajudando no preparo de
+                  materiais, transporte e descarga, organização, lixamento,
+                  orçamentos, dentre outros.
+                </p>
+              </div>
+            </div>
+            <br />
+          </div>
+          <div id="botao-expandir-trajetoria">
+            <div class="line"></div>
+            <button class="buttonexperience" onclick="expandirTrajetoria()">
+              <p>Experiências profissionais</p>
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </button>
+          </div>
+
+          <h2 class="h2-certificado">
+            Nesta seção abaixo, juntei os cursos que já concluí, os que estou
+            mandando ver agora e algumas certificações que mostram o quanto tô
+            me dedicando pra evoluir como desenvolvedor.
+          </h2>
+
+          <div class="certificado oculto">
+            <div class="timeline-entry">
+              <div class="timeline-left">
+                <h2>Universidade de Uberaba</h2>
+                <p>
+                  Fev 2024 ~ o momento (previsão 2028) <br />Presencial/Remoto
+                </p>
+              </div>
+              <div class="timeline-middle">
+                <span class="dot"></span>
+              </div>
+              <div class="timeline-right">
+                <h2>Sistemas de Informação</h2>
+                <p>
+                  Tenho me aprofundado em estrutura de sistemas, algoritmos e
+                  estruturas de dados, sempre com foco em lógica e eficiência.
+                  Estudo linguagens e técnicas de programação aplicadas ao
+                  desenvolvimento de soluções. Também exploro fundamentos de
+                  análise de dados para transformar informação em valor
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-entry">
+              <div class="timeline-left">
+                <h2>Rocketseat</h2>
+                <p>Mai 2025 ~ o momento <br />Remoto</p>
+              </div>
+              <div class="timeline-middle">
+                <span class="dot"></span>
+              </div>
+              <div class="timeline-right">
+                <h2>Formação completa Full-Stack</h2>
+                <p>
+                  Atualmente estou realizando o curso Fullstack da Rocketseat,
+                  focado em desenvolvimento web moderno com as principais
+                  tecnologias do mercado. A formação abrange tanto frontend
+                  quanto backend, com foco em prática e projetos reais
+                </p>
+              </div>
+            </div>
+            <div class="timeline-entry">
+              <div class="timeline-left">
+                <h2>Udemy</h2>
+                <p>2024 - 2025 <br />Remoto</p>
+              </div>
+              <div class="timeline-middle">
+                <span class="dot"></span>
+              </div>
+              <div class="timeline-right">
+                <h2>C# PRIMEIROS PASSOS: Lógica de Programação e Algoritmos</h2>
+                <p>
+                  Concluí o curso "C# Primeiros Passos" ministrado pelo
+                  instrutor de programação Nélio Alves da Udemy, focado em
+                  lógica de programação e construção de algoritmos. A formação
+                  reforçou minha base estrutural para desenvolvimento com C#
+                </p>
+              </div>
+            </div>
+            <div class="timeline-entry">
+              <div class="timeline-left">
+                <h2>Udemy</h2>
+                <p>2024 - 2025 <br />Remoto</p>
+              </div>
+              <div class="timeline-middle">
+                <span class="dot"></span>
+              </div>
+              <div class="timeline-right">
+                <h2>C# COMPLETO: Programação Orientada a Objetos + Projetos</h2>
+                <p>
+                  Finalizei o curso "C# COMPLETO: Programação Orientada a
+                  Objetos + Projetos", ministrado pelo instrutor Nélio Alves. A
+                  formação aprofundou meus conhecimentos em POO e
+                  desenvolvimento de aplicações completas com C#
+                </p>
+              </div>
+            </div>
+            <div class="timeline-entry">
+              <div class="timeline-left">
+                <h2>Rocketseat</h2>
+                <p>2024 - 2025 <br />Remoto</p>
+              </div>
+              <div class="timeline-middle">
+                <span class="dot"></span>
+              </div>
+              <div class="timeline-right">
+                <h2>Git e Github</h2>
+                <p>
+                  Concluí um curso introdutório de Git e GitHub, onde aprendi a
+                  versionar projetos, colaborar em equipe e utilizar
+                  repositórios de forma prática e eficiente no fluxo de
+                  desenvolvimento.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id="botao-expandir-certificado">
+            <div class="line"></div>
+            <button class="buttonexperience" onclick="expandirCertificado()">
+              <p>Estudos e certificados</p>
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </button>
+          </div>
+          <br /><br /><br /><br /><br />
+        </div>
+      </section>
+      <section id="contato" class="section-transicao">
+        <div class="section-base-wrapper intervalCardReveal">
+          <h1>Chama no código!</h1>
+          <h2>
+            <strong>Bora trocar uma ideia?</strong> Tô super aberto pra
+            conversar e explorar novas oportunidades. Pode me chamar no
+            <a href="mailto:pedro16hf@gmail.com">pedro16hf@gmail.com</a> ou nas
+            redes sociais. <strong>Vamos nos conectar!</strong>
+          </h2>
+          <div class="section-base-rodape">
+            <div>
+              <div class="buttons">
+                <a
+                  href="https://www.linkedin.com/in/initpedro/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><button class="icons">
+                    <ion-icon name="logo-linkedin"></ion-icon></button></a
+                ><a
+                  href="https://www.github.com/initpedro/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><button class="icons">
+                    <ion-icon name="logo-github"></ion-icon></button
+                ></a>
+                <a href="mailto:pedro16hf@gmail.com"
+                  ><button class="icons">
+                    <ion-icon name="mail-outline"></ion-icon></button
+                ></a>
+                <a
+                  href="http://discord.com/users/683063659638816800"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><button class="icons">
+                    <ion-icon name="logo-discord"></ion-icon></button
+                ></a>
+              </div>
+            </div>
+
+            <div class="line"></div>
+            <div class="entrada">
+              <a
+                href="https://drive.google.com/drive/folders/1uxyglnsnpw3eLQLCb_xpqVoffd-lLT3I?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="button-icons">
+                  <ion-icon name="document-text-outline"></ion-icon>
+                  <p>Veja o meu CV</p>
+                </button></a
+              >
+            </div>
+          </div>
+          <br /><br />
+          <h1>
+            <ion-icon name="mail-unread-outline"></ion-icon> Vamos conversar?
+          </h1>
+          <form
+            action="https://formsubmit.co/pedro16hf@gmail.com"
+            method="POST"
+            class="feedback-form"
+          >
+            <input
+              type="hidden"
+              name="_next"
+              value="https://initpedro.github.io/"
+            />
+            <input
+              name="name"
+              type="text"
+              class="feedback-input"
+              placeholder="Nome"
+            />
+            <input
+              name="email"
+              type="text"
+              class="feedback-input"
+              placeholder="E-mail"
+            />
+            <textarea
+              name="text"
+              class="feedback-input"
+              placeholder="Mensagem"
+            ></textarea>
+            <input type="submit" value="Enviar" />
+          </form>
+          <br />
+          <!-- <hr> -->
+          <br />
+        </div>
+        <footer>
+          <div class="intervalCardReveal">
+            <div class="subfooter">
+              <div class="footer-sobre">
+                <h1>Sobre o Portfólio</h1>
+                <p>
+                  Criei meu portfólio pra mostrar meus projetos, contar um pouco
+                  da minha trajetória e guardar tudo que venho aprendendo. É meu
+                  cantinho na web, onde compartilho o que já fiz e no que tô
+                  trabalhando. Quem sabe não rola uma conexão ou até uma
+                  oportunidade por aqui?
+                </p>
+              </div>
+              <div class="footer-icons">
+                <a
+                  href="http://discord.com/users/683063659638816800"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><ion-icon name="logo-discord"></ion-icon></a
+                ><a
+                  href="https://www.linkedin.com/in/initpedro/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><ion-icon name="logo-linkedin"></ion-icon></a
+                ><a
+                  href="https://www.github.com/initpedro/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><ion-icon name="logo-github"></ion-icon></a
+                ><a
+                  href="https://www.instagram.com/initpedro/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><ion-icon name="logo-instagram"></ion-icon></a
+                ><a href="mailto:pedro16hf@gmail.com"
+                  ><ion-icon name="mail-outline"></ion-icon
+                ></a>
+              </div>
+            </div>
+            <div class="footer">
+              © 2025 Todos os direitos reservados.&nbsp;<a
+                href="https://www.github.com/initpedro/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><strong>@initpedro</strong></a
+              >
+            </div>
+          </div>
+        </footer>
+      </section>
+    </main>
+    <script type="module" src="./source/scripts/main.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      function expandirTrajetoria() {
+        const timeline = document.querySelector(".timeline")
+        const botao = document.getElementById("botao-expandir-trajetoria")
+
+        // Remove a classe 'oculto' para mostrar
+        timeline.classList.remove("oculto")
+
+        // Esconde o botão depois de clicar
+        botao.style.display = "none"
+      }
+
+      function expandirCertificado() {
+        const certificado = document.querySelector(".certificado")
+        const botao = document.getElementById("botao-expandir-certificado")
+
+        // Remove a classe 'oculto' para mostrar
+        certificado.classList.remove("oculto")
+
+        // Esconde o botão depois de clicar
+        botao.style.display = "none"
+      }
+
+      let expandido = false
+
+      function expandirTexto() {
+        const texto = document.getElementById("texto-habilidades")
+        const botaoContainer = document.getElementById(
+          "botao-expandir-container"
+        )
+        const botao = botaoContainer.querySelector("p")
+
+        if (!expandido) {
+          texto.classList.add("expandido")
+          texto.style.height = texto.scrollHeight + "px"
+          botao.textContent = "Mostrar menos"
+        } else {
+          texto.style.height = "0px"
+          texto.classList.remove("expandido")
+          botao.textContent = "Continue lendo"
+
+          // Espera a animação terminar antes de mover o botão para cima (opcional)
+          setTimeout(() => {
+            const parteTexto = document.querySelector(".parte-texto")
+            parteTexto.appendChild(botaoContainer)
+          }, 500) // tempo da transição
+        }
+
+        expandido = !expandido
+
+        // Quando expandido, garante que o botão está no fim do texto
+        if (expandido) {
+          texto.appendChild(botaoContainer)
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -24,18 +24,20 @@
   box-sizing: border-box;
   transition: opacity 0.8s ease-out, transform 0.8s ease-out, filter 0.8s ease-out;
   font-family: "Poppins", sans-serif;
+  user-select: none;
+}
+
+body {
+  height: 100vh;
+  background-color: hsl(0, 0%, 0%);
+  font-family: 'Poppins', sans-serif;
+  animation: background_color 15s 0.875s cubic-bezier(0.9, 0, 0.1, 1) forwards;
+  margin: 0;
+  pointer-events: none;
 }
 
     *, *:before, *:after {
       box-sizing: inherit;
-    }
-
-    body {
-      height: 100vh;
-      background-color: hsl(0, 0%, 0%);
-      font-family: 'Poppins', sans-serif;
-      animation: background_color 15s 0.875s cubic-bezier(0.9, 0, 0.1, 1) forwards;
-      margin: 0;
     }
 
     @keyframes background_color {

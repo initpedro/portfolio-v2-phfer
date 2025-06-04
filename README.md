@@ -15,10 +15,6 @@ Portfólio criado para uso pessoal e controle de projetos. Versão constantement
 
 <br>
 
-<p align="center">
-  <img alt="portfólio" src="https://i.postimg.cc/SxFfSspf/banner-s.png" width="100%">
-</p>
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:

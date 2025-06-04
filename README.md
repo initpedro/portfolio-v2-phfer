@@ -13,8 +13,6 @@ Portfólio criado para uso pessoal e controle de projetos. Versão constantement
   <img alt="License" src="https://i.ibb.co/Xxdc7m8n/image-top-site.png">
 </p>
 
-<br>
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:

@@ -717,35 +717,47 @@
             <ion-icon name="mail-unread-outline"></ion-icon> Vamos conversar?
           </h1>
           <form
-            action="https://formsubmit.co/pedro16hf@gmail.com"
-            method="POST"
-            class="feedback-form"
-          >
-            // <input type="hidden" name="_captcha" value="false">
-            <input
-              type="hidden"
-              name="_next"
-              value="https://phfer.netlify.app/source/pages/agradecimento.html"
-            />
-            <input
-              name="name"
-              type="text"
-              class="feedback-input"
-              placeholder="Nome"
-            />
-            <input
-              name="email"
-              type="text"
-              class="feedback-input"
-              placeholder="E-mail"
-            />
-            <textarea
-              name="text"
-              class="feedback-input"
-              placeholder="Mensagem"
-            ></textarea>
-            <input type="submit" value="Enviar" />
-          </form>
+  action="https://formsubmit.co/pedro16hf@gmail.com"
+  method="POST"
+  class="feedback-form"
+>
+  <!-- Redirecionamento após envio -->
+  <input
+    type="hidden"
+    name="_next"
+    value="https://phfer.netlify.app/source/pages/agradecimento.html"
+  />
+
+  <!-- Nome -->
+  <input
+    name="name"
+    type="text"
+    class="feedback-input"
+    placeholder="Nome"
+    required
+  />
+
+  <!-- E-mail -->
+  <input
+    name="email"
+    type="email"
+    class="feedback-input"
+    placeholder="E-mail"
+    required
+  />
+
+  <!-- Mensagem -->
+  <textarea
+    name="text"
+    class="feedback-input"
+    placeholder="Mensagem"
+    required
+  ></textarea>
+
+  <!-- Botão de envio -->
+  <input type="submit" value="Enviar" />
+</form>
+
           <br />
           <!-- <hr> -->
           <br />
